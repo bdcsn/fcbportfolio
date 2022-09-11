@@ -1,0 +1,90 @@
+ 
+/*
+
+	SYNTAX: 
+		selector {
+	
+			property:  value;
+		}
+
+*/     
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+img {
+	height: 200px;
+	width: 200px;
+	border: 10px solid darkslategrey;
+	border-radius: 100%;
+
+}
+
+img:hover{
+
+	border-radius: 50px;
+	transition: 0.5s;
+	border-color: #ffffff;
+}
+
+#landing {
+	/*vh - viewport height depends on the height of the user monitor*/
+ height: 100vh;
+ 	/* display flex - allows us to align the elements horizontally and vertically */
+display: flex;
+ 	/* flex-direction -  */
+ flex-direction: column;
+ /*	alligns the flex items horizontally	*/
+ align-items: center;
+/*	alligns the flex items vertically	*/
+ justify-content: CENTER;
+}
+
+#gallery {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: CENTER;
+height: 75vh;
+border-radius: 6px;
+color: #fff08d;
+}
+
+ul{
+
+	list-style: none;
+	padding: 0;
+}
+
+html{
+
+	scroll-behavior: smooth;
+
+}
+
+body{
+
+	background-color: #ffffff;
+}
+
+h2{
+
+	color: #1E90FF;
+}
+
+.tools{
+	border: 5px solid #f2f2f2;
+	bor
+	height: 200px;
+	width: 75%;
+	padding: auto;
+	margin: 20px;
+}
+.tools:hover{
+border-radius: 50px;
+	transition: 1s;
+}
